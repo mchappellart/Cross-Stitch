@@ -10,8 +10,23 @@ p {
 	font-family: 'Roboto', sans-serif;
 }
 
-#learnButton {
+#quizButton {
 	background-image: linear-gradient(to right, rgb(159, 199, 207), rgb(193, 220, 192));
 	font-weight: bold;
 	color: white;
+	border: none;
+}
+
+#frontImg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+		transform: translate(50%, 50%);
+}
+
+#center {
+		position: absolute;
+    left: 50%;
+		transform: translate(-50%, -50%);
+		font-size:72px;
 }

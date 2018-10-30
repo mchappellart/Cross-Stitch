@@ -11,20 +11,50 @@
     <meta name="keywords" content="cross, stitch, embroidery, learn, sewing, craft, tutorial, interactive, hobbies, pinterest">
     <link href="https://fonts.googleapis.com/css?family=Merienda+One|Raleway|Roboto:100" rel="stylesheet">
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
+    <navclass="navbar navbar-default">
+    <div class="container-fluid">
+
+      <!--Header-->
+      <div class="navbar-header">
+        <button type="button"class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a href="#" class="navbar-brand">Cross Stitch</a>
       </div>
-      <div class="row">
+
+      <!--Menu-->
+      <div class="collapse navbar-collapse" id="mainNavBar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="./html/learn.html">Learn</a></li>
+          <li><a href="./html/discover.html">Discover</a></li>
+          <li><a href="./html/contact.html">Contact</a></li>
+        </ul>
+
+          <!--Search-->
+        <form class="navbar-form navbar-left" action="/action_page.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+
       </div>
-      <div class="row">
+
+      <img id="frontImg" src="./img/embroidery-hoop2.svg" alt="Hoop" class="frontImg" width="50%" height="50%">
+      <h1 id="center">Cross Stitch</h1>
+
+      <div  class="input-group-btn">
+        <button id="quizButton" type="button" class="btn btn-danger">Let's get started</button>
       </div>
-      <div class="row">
-      </div>
-    </div>
-    <script src="./js/jquery.js"></script>
+
     <script src="./js/bootstrap.js"></script>
   </body>
 </html>
