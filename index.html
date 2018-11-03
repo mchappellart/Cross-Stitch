@@ -10,13 +10,14 @@
     <meta name="description" content="Interactive Cross Stitch Tutorial">
     <meta name="keywords" content="cross, stitch, embroidery, learn, sewing, craft, tutorial, interactive, hobbies, pinterest">
     <link href="https://fonts.googleapis.com/css?family=Merienda+One|Raleway|Roboto:100" rel="stylesheet">
-    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link href="./css/bootstrap.css" rel="stylesheet" type="text/css"> -->
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <navclass="navbar navbar-default">
-    <div class="container-fluid">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
 
       <!--Header-->
       <div class="navbar-header">
@@ -47,13 +48,27 @@
         </form>
 
       </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div id="crossstitch" class="offset-lg-2 col-lg-8 d-flex align-items-center">
+          <h1 class="text-center mx-auto">Cross Stitch</h1>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-12 d-flex justify-content-center">
+          <button id="quizButton" type="button" class="btn">Let's get started</button>
+      </div>
 
-      <img id="frontImg" src="./img/embroidery-hoop2.svg" alt="Hoop" class="frontImg" width="50%" height="50%">
+    </div>
+  </div>
+      <!-- <img id="frontImg" src="./img/embroidery-hoop2.svg" alt="Hoop" class="frontImg" width="50%" height="50%">
       <h1 id="center">Cross Stitch</h1>
 
       <div  class="input-group-btn">
         <button id="quizButton" type="button" class="btn btn-danger">Let's get started</button>
-      </div>
+      </div> -->
 
     <script src="./js/bootstrap.js"></script>
   </body>

@@ -4,6 +4,7 @@ body {
 
 h1 {
 	font-family: 'Merienda One';
+	font-size: 72px;
 }
 
 p {
@@ -28,5 +29,12 @@ p {
 		position: absolute;
     left: 50%;
 		transform: translate(-50%, -50%);
-		font-size:72px;
+}
+
+#crossstitch {
+	background-image: url("../img/embroidery-hoop2.svg");
+	background-repeat: no-repeat;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
 }
