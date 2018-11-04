@@ -4,7 +4,7 @@ body {
 
 h1 {
 	font-family: 'Merienda One';
-	font-size: 72px;
+	font-size: 90px;
 }
 
 p {
@@ -17,6 +17,34 @@ p {
 	color: white;
 	border: none;
 	border-radius: 0px;
+}
+
+#quizNo {
+	background-image: url("../img/quiz_N.svg");
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: contain;
+	background-position: center;
+}
+
+#quizYes {
+	background-image: url("../img/quiz_Y.svg");
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: contain;
+	background-position: center;
+}
+
+.progress {
+	background: rgb(166,144,238);
+	background: linear-gradient(90deg, rgba(166,144,238,1) 0%, rgba(154,238,255,1) 100%);
+}
+#hoop {
+	background-image: url("../img/hoop.svg");
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: contain;
+	background-position: center;
 }
 
 #frontImg {
