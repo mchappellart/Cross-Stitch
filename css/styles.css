@@ -28,6 +28,10 @@ p {
 	background: rgb(166,144,238);
 	background: linear-gradient(90deg, rgba(166,144,238,1) 0%, rgba(154,238,255,1) 100%);
 }
+
+.rounded {
+	border-radius: 15px !important;
+}
 #hoop {
 	background-image: url("../img/hoop.svg");
 	background-repeat: no-repeat;
