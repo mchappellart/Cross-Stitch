@@ -24,23 +24,7 @@ p {
 	border-radius: 0px;
 }
 
-#quizNo {
-	background-image: url("../img/quiz_N.svg");
-	background-repeat: no-repeat;
-	height: 500px;
-	background-size: contain;
-	background-position: center;
-}
-
-#quizYes {
-	background-image: url("../img/quiz_Y.svg");
-	background-repeat: no-repeat;
-	height: 500px;
-	background-size: contain;
-	background-position: center;
-}
-
-.progress {
+.progress-bar {
 	background: rgb(166,144,238);
 	background: linear-gradient(90deg, rgba(166,144,238,1) 0%, rgba(154,238,255,1) 100%);
 }

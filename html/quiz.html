@@ -17,23 +17,32 @@
   </head>
 
   <body>
-    <h2> Do you know what Cross Stitch is? </h2>
+
+    <!-- CONTENT -->
     <div class="container">
+      <!-- QUESTION -->
+      <div class="row">
+        <h2 class="text-center"> Do you know what Cross Stitch is? </h2>
+      </div>
+      <!-- HOOP/BUTTONS -->
       <div class="row">
         <div id="hoop" class="offset-lg-2 col-lg-8 d-flex align-items-center">
-          <div id="quizNo" class="offset-lg-2 col-lg-8 d-flex align-items-center">
-            <a href="./html/quiz.html"><button type="button" class="btn">Click</button></a>
+          <div class="col-lg-6 align-items-center mt-4 p-0">
+            <a href="./discover.html">
+              <img src="../img/quiz_Y.svg" style="height: 500px" class="img-fluid float-right"/>
+            </a>
           </div>
-          <div id="quizYes" class="offset-lg-2 col-lg-8 d-flex align-items-center">
-            <a href="./html/quiz.html"><button type="button" class="btn">Click</button></a>
+          <div class="col-lg-6 align-items-center mt-4 p-0">
+            <a href="./discover.html">
+              <img src="../img/quiz_N.svg" style="height: 500px" class="img-fluid float-left"/>
+            </a>
           </div>
         </div>
+      </div>
+      <!-- PROGRESS BAR -->
+      <div class="progress mt-5 mb-5">
+        <div class="progress-bar" role="progressbar" style="width:100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
     </div>
-  </div>
-
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-
   </body>
 </html>
