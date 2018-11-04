@@ -7,6 +7,11 @@ h1 {
 	font-size: 90px;
 }
 
+h2 {
+	font-family: 'Merienda One';
+	font-size: 72px;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +27,7 @@ p {
 #quizNo {
 	background-image: url("../img/quiz_N.svg");
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 500px;
 	background-size: contain;
 	background-position: center;
 }
@@ -30,7 +35,7 @@ p {
 #quizYes {
 	background-image: url("../img/quiz_Y.svg");
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 500px;
 	background-size: contain;
 	background-position: center;
 }
