@@ -30,7 +30,7 @@ p {
 }
 
 .rounded {
-	border-radius: 15px !important;
+	border-radius: 5px !important;
 }
 #hoop {
 	background-image: url("../img/hoop.svg");
