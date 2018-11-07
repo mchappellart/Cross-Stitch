@@ -7,6 +7,10 @@ h1 {
 	font-size: 90px;
 }
 
+a h1 {
+	font-size: 48px;
+}
+
 h2 {
 	font-family: 'Merienda One';
 	font-size: 48px;
