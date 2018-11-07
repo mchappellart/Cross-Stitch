@@ -73,6 +73,10 @@ p {
 	border: 5px solid black;
 }
 
+#palette {
+	display: table;
+}
+
 /* Had to change name of class so that it would not interfere with bootstrap's row class */
 .trow {
 	display: table-row;
@@ -89,5 +93,6 @@ p {
   display: inline-block;
   width: 40px;
   height:40px;
-  border: 2px solid black;
+  border: 1px solid black;
+	margin: 0px 0.5px;
 }
