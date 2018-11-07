@@ -4,7 +4,7 @@ body {
 
 h1 {
 	font-family: 'Merienda One';
-	font-size: 90px;
+	font-size: 64px;
 }
 
 a h1 {
@@ -12,9 +12,30 @@ a h1 {
 }
 
 h2 {
-	font-family: 'Merienda One';
+	font-family: 'Roboto';
+	font-size: 54px;
+}
+
+h3 {
+	font-family: 'Roboto';
 	font-size: 48px;
 }
+
+h4 {
+	font-family: 'Roboto';
+	font-size: 40px;
+}
+
+h5 {
+	font-family: 'Roboto';
+	font-size: 36px;
+}
+
+h6 {
+	font-family: 'Roboto';
+	font-size: 30px;
+}
+
 
 p {
 	font-family: 'Roboto', sans-serif;
@@ -95,4 +116,13 @@ p {
   height:40px;
   border: 1px solid black;
 	margin: 0px 0.5px;
+}
+
+#navbar a {
+	color: black;
+}
+
+#navbar a:hover {
+	color: gray;
+	text-decoration: none;
 }
