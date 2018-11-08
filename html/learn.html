@@ -17,29 +17,33 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- Header -->
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h4 class="text-white">Collapsed content</h4>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+    <!-- Navbar Mobile -->
+    <div id="navbar" class="d-block d-sm-block d-md-none">
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-light p-4">
+            <a href="../index.html"><h4 class="text-black">Cross Stitch</h4></a>
+            <a href="../index.html"><h5>Home<h5></a>
+            <a href="./learn.html"><h5>Learn<h5></a>
+            <a href="./discover.html"><h5>Discover<h5></a>
+          </div>
         </div>
+        <nav class="navbar navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
     </div>
-    <!-- Navbar lg md -->
-    <div id="navbar" class="mb-4 mt-4 pb-3">
+    <!-- Navbar Desktop -->
+    <div id="navbar" class="mb-5 mt-4 pb-5 d-none d-md-block">
       <div class="container">
         <div class="row text-center">
           <div class="offset-md-1 col-md-3">
             <a href="../index.html" class="mx-4 text-center"><h3>Home</h3></a>
           </div>
           <div class="col-md-3">
-            <a href="./quiz_01.html" class="mx-4 text-center"><h3>Learn</h3></a>
+            <a href="./learn.html" class="mx-4 text-center"><h3>Learn</h3></a>
           </div>
           <div class="col-md-3">
             <a href="./discover.html" class="mx-4 text-center"><h3>Discover</h3></a>
@@ -47,8 +51,6 @@
         </div>
       </div>
     </div>
-    <!-- Navbar sm -->
-
     <!-- Content -->
     <div class="container">
       <div class="row">
