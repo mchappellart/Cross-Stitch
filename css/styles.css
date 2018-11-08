@@ -88,6 +88,18 @@ p {
 	background-position: center;
 }
 
+/* Navbar links are black and hover as gray */
+#navbar a {
+	color: black;
+}
+
+#navbar a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+/* https://codeclubprojects.org/en-GB/webdev/pixel-art/ */
+
 #template {
 	display: table;
 	border-spacing: 1px;
@@ -104,6 +116,7 @@ p {
 	display: table-row;
 }
 
+
 .pixel {
 	display: table-cell;
 	background-color: white;
@@ -117,13 +130,4 @@ p {
   height:40px;
   border: 1px solid black;
 	margin: 0px 0.5px;
-}
-
-#navbar a {
-	color: black;
-}
-
-#navbar a:hover {
-	color: gray;
-	text-decoration: none;
 }
